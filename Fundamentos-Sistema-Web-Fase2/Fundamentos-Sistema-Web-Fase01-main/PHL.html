@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gab's Minimercado</title>
+    <!-- Link para o Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .card-img-top {
+            width: 100%; 
+            height: 350px; 
+            object-fit: cover; 
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer h2, footer h4 {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-4">
+        <header class="text-center">
+            <h1><b>Gab's Minimercado</b></h1>
+            <p>Aqui você encontra tudo que precisa para seu lar.</p>
+        </header>
+
+        <!-- Barra de navegação -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+            <div class="container-fluid">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Cadastro/Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="NP.html">Alimentos Não Perecíveis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FV.html">Frutas e Verduras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PHL.html">Produtos de Higiene e Limpeza</a></li>
+                    <li class="nav-item"><a class="nav-link" href="SO.html">Serviços Oferecidos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrinho.html">Carrinho</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <hr>
+
+        <h3>Produtos de Higiene e Limpeza</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <a href="pasta.html" class="card text-center">
+                    <img src="img/pasta_de_dente.jpg" class="card-img-top" alt="Pasta de Dente">
+                    <div class="card-body">
+                        <h4 class="card-title">Pasta de Dente</h4>
+                        <p><b>R$ 2,99</b></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="enxaguante.html" class="card text-center">
+                    <img src="img/enxaguante_bucal.jpg" class="card-img-top" alt="Enxaguante Bucal">
+                    <div class="card-body">
+                        <h4 class="card-title">Enxaguante Bucal</h4>
+                        <p><b>R$ 16,99</b></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="escova.html" class="card text-center">
+                    <img src="img/escova_de_dente.jpg" class="card-img-top" alt="Escova de Dente">
+                    <div class="card-body">
+                        <h4 class="card-title">Escova de Dente</h4>
+                        <p><b>R$ 6,59</b></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <h2>Serviços:</h2>
+            <h3>Retire aqui</h3>
+            <p>Você seleciona seus itens e os produtos estarão te esperando no balcão de retirada.</p>
+            <p>Retirada da 8 às 22 hrs</p>
+
+            <h3>Delivery</h3>
+            <p>Você monta seu carrinho e entregamos na sua casa no mesmo dia.</p>
+            <p>Delivery das 8 às 22 hrs</p>
+        </div>
+
+        <footer>
+            <h2>Estamos localizados: Rua Ministro Salgado Filho,123 - Jd Paineras - Sorocaba/SP - Brasil</h2>
+            <h2>Horário de Funcionamento: 8 às 22 hrs</h2>
+            <h4>Preços e condições exclusivos para esta página</h4>
+            <h4>Política de privacidade e termos de uso</h4>
+            <h4>Desenvolvido por Gabriel Rodrigues - 2024</h4>
+        </footer>
+    </div>
+
+    <!-- Link para o Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
